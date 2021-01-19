@@ -1,0 +1,21 @@
+<ion-content class="auth-form">
+  
+  <img class="logo"  height="90px" width="90px" src="../../assets/img/tau.png"> 
+  <ion-title class="title">Tarlac Agricultural University</ion-title>
+  <ion-title class="sub-title">Student Portal</ion-title> 
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-item>
+          <ion-label position="floating" required>Student Number</ion-label>
+          <ion-input type="number"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating" required>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+        <ion-button [routerLink]="['/tabs']"shape="round" size="default"expand="block">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

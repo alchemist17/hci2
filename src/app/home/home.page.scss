@@ -1,0 +1,46 @@
+
+
+.auth-form ion-grid,
+.auth-form ion-row {
+  height: 100%;
+  justify-content: center;
+}
+
+ion-content.auth-form{
+  --background: url(../../assets/img/bg1.png) 0 0/100% 100% no-repeat;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+}
+
+ion-title{
+  font-size: larger;
+  color: green;
+  margin-top: 3%;
+  font-size:20px;
+  text-align: center;
+  font-weight:normal;
+}
+ion-title.sub-title{
+  font-size: xx-large;
+}
+ion-item{
+  --padding-bottom:10px;
+  --padding-top:10px;
+  --background:none;
+}
+ion-input{
+  margin-top: 10px;
+  font-size: 30px;
+  padding-bottom: 0px;
+}
+ion-button{
+  padding-right: 20%;
+  padding-left: 20%;
+  --color:white;
+  --background:green;
+}
